@@ -1,0 +1,12 @@
+{
+  "name": "MMM-covid19uk-stats",
+  "version": "1.0.0",
+  "description": "COVID-19 stats for the UK - including deaths and vaccinations",
+  "main": "mmm-covid19uk-stats.js",
+  "author": {
+    "name": "Blighter"
+  },
+  "dependencies": {
+    "request": "^2.81.0"
+  }
+}
