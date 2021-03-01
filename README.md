@@ -1,4 +1,4 @@
-# Magic Mirror Module Stocks
+# Magic Mirror UK COVID-19 Vaccination Stats Module
 This module is a <a href="https://github.com/MichMich/MagicMirror">MagicMirror</a> add-on.
 This module displays a table of the 5 latest statistics for COVID-19 New Vaccinations as published by the UK Government.
 
