@@ -4,7 +4,7 @@ This module displays a table of the 5 latest statistics for COVID-19 New Vaccina
 
 ## ℹ️ How to use this module
 1. cd to your MagicMirror modules directory
-1. clone this repo with the following command: `git clone https://github.com/Elaniobro/MMM-stocks.git`
+1. clone this repo with the following command: `git clone https://github.com/blighter/MMM-covid19uk-stats.git`
 1. install all the npm modules with `npm install`
 1. update your [Magic Mirror Config](https://github.com/MichMich/MagicMirror/blob/master/config/config.js.sample), by adding the following object:
 To use this module, add it to the modules array in the `config/config.js` file:
