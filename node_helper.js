@@ -18,8 +18,6 @@ module.exports = NodeHelper.create({
   		var self = this;
   		var retry = true;
 
-      //url = "http://10.6.0.139:8069/test.json";
-
       request({url:url, gzip:true}, function(error, response, body) {
         console.log("Fetching data from " + url + "with results: ");
         if(!error && response.statusCode == 200) {
@@ -33,7 +31,6 @@ module.exports = NodeHelper.create({
       });
   	},
 
-  //Subclass socketNotificationReceived received.
   socketNotificationReceived: function(notification, payload) {
     console.log(this.name + " received a module notification: " + notification);
     if (notification === 'GET_COVIDINFO') {
