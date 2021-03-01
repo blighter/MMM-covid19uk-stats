@@ -33,8 +33,8 @@ For bugs and feature requests, [please create an issue](https://github.com/elani
 * [github](https://github.com/blighter)
 * [twitter](https://www.twitter.com/blighternet)
 
-### ⚖️ License
+## ⚖️ License
 This project is licensed under the MIT License - see the LICENSE.md file for details
 
-### 🙏🏽 Acknowledgments
+## 🙏🏽 Acknowledgments
 * [Elaniobro](https://github.com/Elaniobro) for the readme template
