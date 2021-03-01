@@ -2,6 +2,8 @@
 This module is a <a href="https://github.com/MichMich/MagicMirror">MagicMirror</a> add-on.
 This module displays a table of the 5 latest statistics for COVID-19 New Vaccinations as published by the UK Government.
 
+![image](https://user-images.githubusercontent.com/2239915/109556934-55b9f000-7acf-11eb-8bf3-385cd5a9f574.png)
+
 ## ℹ️ How to use this module
 1. cd to your MagicMirror modules directory
 1. clone this repo with the following command: `git clone https://github.com/blighter/MMM-covid19uk-stats.git`
