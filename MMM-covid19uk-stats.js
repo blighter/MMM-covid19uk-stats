@@ -16,13 +16,6 @@ Module.register("MMM-covid19uk-stats", {
 		Log.log(data.data[0].date + " : " + data.data[0].newCases);
 		
 		this.covid = data.data;
-		
-		//this.covid.cases = data.data[0].newCases;
-		//this.covid.date = data.data[0].date;
-		//this.covid.casesyday = data.data[1].newCases;
-		//this.covid.dateyday = data.data[1].date;
-
-		// return ("<p>" + jsonData.data[0].date + " : " + jsonData.data[0].newCases + " vaccinatons done</p>");
 
         this.loaded = true;
         this.updateDom();
@@ -39,7 +32,6 @@ Module.register("MMM-covid19uk-stats", {
 		this.updateTimer = setTimeout(() => {
             this.fetchCovidInfo();
 
-            // Now we've had our initial delay, re-fetch our COVID information at the interval given in the config
             this.updateTimer = setInterval(() => {
                 this.fetchCovidInfo();
             }, this.config.updateInterval);
@@ -92,7 +84,7 @@ Module.register("MMM-covid19uk-stats", {
 		row.appendChild(covidTotalCell);
 
 		wrapper.appendChild(table);
-		//wrapper.innerHTML = '<span class="title">' + this.covid.date + " : " + this.covid.cases + " vaccinatons done</span>";
+		
 		return wrapper;
 	},
 	getHeader: function () {
