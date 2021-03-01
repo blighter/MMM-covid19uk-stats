@@ -11,16 +11,16 @@ To use this module, add it to the modules array in the `config/config.js` file:
 
 ````javascript
 modules: [
-		{
-			module: "MMM-covid19uk-stats",
-			position: "top_right",
-			config: {
-				apiURL: "https://api.coronavirus.data.gov.uk/v1/data"
-			}
+	{
+		module: "MMM-covid19uk-stats",
+		position: "top_right",
+		config: {
+			apiURL: "https://api.coronavirus.data.gov.uk/v1/data"
 		}
+	}
 ]
 ````
-1. enjoy!
+
 
 ## 🛠️ Config
 * No configuration needed!
